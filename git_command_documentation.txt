@@ -1,0 +1,35 @@
+in this file i will document all git command that i learnt...
+
+1. `git config --global user.name "<your name>"`  
+   *(Used to set the global username for all repositories on the system)*
+
+2. `git config --global user.email "<your email>"`  
+   *(Used to set the global email for all repositories on the system)*
+
+3. `git add <file name>`  
+   *(Adds a specific file to the staging area in the repository)*
+
+4. `git status`  
+   *(Shows the current state of the working directory and staging area, including changes and which files are staged for commit)*
+
+5. `git add --all`  
+   *(Adds all changes, including new, modified, and deleted files, to the staging area)*
+
+6. `git commit -m "<your message>"`  
+   *(Commits staged changes with a message describing what the commit does)*
+
+7. git status --short 
+	( --short option to see the changes more compact way )
+
+
+8. git commit -a -m <"message"> 
+	( -a use for directly commit without first add to stage )
+
+
+
+9. git log
+	( to view the history of commits for a repository )
+
+10. git command -help -  See all the available options for the specific command
+
+11. git help --all -  See all possible commands
